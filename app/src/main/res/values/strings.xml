@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ключ-Наушники</string>
+
+    <string name="section_mode">Режим защиты</string>
+    <string name="mode_key">Ключ: экран виден только с наушниками</string>
+    <string name="mode_inverted">Инверсия: блюр, пока наушники подключены</string>
+    <string name="mode_frontal">Фронтальный замок: экран виден, пока ваше лицо строго напротив</string>
+    <string name="mode_name_key">Ключ (наушники)</string>
+    <string name="mode_name_inverted">Инверсия (наушники)</string>
+    <string name="mode_name_frontal">Фронтальный замок (камера)</string>
+
+    <string name="switch_frontal_buds">Фронтальному замку также требовать наушники</string>
+    <string name="switch_boot">Запускать защиту при включении телефона</string>
+
+    <string name="status_template">Режим: %1$s\nПоверх других окон разрешено: %2$s\nНаушники подключены: %3$s</string>
+    <string name="frontal_note">Фронтальный замок: экран открывается, только если фронтальная камера видит ровно одно лицо строго напротив экрана. Текущее состояние — в уведомлении службы.</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+
+    <string name="btn_grant_overlay">Разрешить показ поверх других окон</string>
+    <string name="btn_start">Запустить защиту</string>
+    <string name="btn_stop">Остановить</string>
+    <string name="btn_settings">Параметры (пороги и тексты)</string>
+    <string name="btn_test">Проверить шторку (3 секунды)</string>
+
+    <string name="settings_title">Параметры</string>
+    <string name="section_thresholds">Пороги фронтального замка</string>
+    <string name="section_texts">Тексты шторки (пусто = стандартные)</string>
+    <string name="label_yaw">Макс. поворот головы влево/вправо, ° (5–40)</string>
+    <string name="label_yaw_hint">18</string>
+    <string name="label_roll">Макс. наклон головы, ° (5–45)</string>
+    <string name="label_roll_hint">25</string>
+    <string name="label_center">Допустимое смещение лица от центра, % (20–100)</string>
+    <string name="label_center_hint">45</string>
+    <string name="label_pass">Кадров до открытия экрана (1–20)</string>
+    <string name="label_pass_hint">3</string>
+    <string name="label_fail">Кадров до блюра (1–20)</string>
+    <string name="label_fail_hint">4</string>
+    <string name="label_title">Заголовок шторки</string>
+    <string name="label_title_hint">Контент скрыт</string>
+    <string name="label_hint_key">Подсказка в режиме «Ключ»</string>
+    <string name="label_hint_inverted">Подсказка в режиме «Инверсия»</string>
+    <string name="label_hint_frontal">Подсказка в режиме «Фронтальный замок»</string>
+    <string name="btn_save">Сохранить и применить</string>
+    <string name="btn_defaults">Сбросить к стандартным</string>
+    <string name="toast_saved">Сохранено, защита обновлена</string>
+    <string name="toast_invalid">Проверьте значения: поворот 5–40°, наклон 5–45°, центр 20–100 %, кадры 1–20</string>
+    <string name="toast_defaults">Параметры сброшены</string>
+
+    <string name="toast_need_overlay">Сначала разрешите показ поверх других окон</string>
+    <string name="toast_started">Защита запущена</string>
+    <string name="toast_stopped">Защита остановлена</string>
+
+    <string name="overlay_icon">🔒</string>
+    <string name="overlay_title">Контент скрыт</string>
+    <string name="hint_key">Подключите наушники — экран вернётся</string>
+    <string name="hint_inverted">Отключите наушники — экран вернётся</string>
+    <string name="hint_frontal">Держите экран строго напротив лица</string>
+    <string name="hint_frontal_buds">…и подключите наушники</string>
+
+    <string name="help_text">Режим «Ключ»: телефон мгновенно видит подключение/отключение наушников (3.5 мм, USB-C, Bluetooth). Вытащили — весь экран накрыт шторкой. Режим «Фронтальный замок»: фронтальная камера проверяет, что ваше лицо строго напротив экрана; отвернулись, положили телефон, взяли в чужие руки, появилось второе лицо — шторка. Честно: шторка закрывает экран для всех сразу — от соседа, заглядывающего через плечо в момент просмотра, она не защитит (его лицо вне поля зрения камеры).</string>
+
+    <string name="notify_channel">Защита экрана</string>
+    <string name="notify_title">Ключ-Наушники активен</string>
+    <string name="notify_covered">Экран закрыт шторкой</string>
+    <string name="notify_open">Экран открыт</string>
+</resources>
